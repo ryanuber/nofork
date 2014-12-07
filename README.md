@@ -8,7 +8,7 @@ signals to reach the process normally and simplifies wrapping a program with a
 pidfile mechanism.
 
 The intended use case is to enable signaling processes which may take a while
-to run, such as builds.
+to run, such as builds. It's like having a `-pidfile` option on any command.
 
 Usage
 =====
